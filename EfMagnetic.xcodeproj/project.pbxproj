@@ -21,6 +21,7 @@
 		CEFF20C82BBAD2B20038EC10 /* MagneticCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20C72BBAD2B20038EC10 /* MagneticCoordinator.swift */; };
 		CEFF20CD2BBAD3270038EC10 /* MagneticCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20CC2BBAD3270038EC10 /* MagneticCoordinatorProtocol.swift */; };
 		CEFF20CF2BBAD34E0038EC10 /* MagneticCoordinatorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20CE2BBAD34E0038EC10 /* MagneticCoordinatorEvent.swift */; };
+		CEFF20D32BBAEB770038EC10 /* PurpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20D22BBAEB770038EC10 /* PurpleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		CEFF20C72BBAD2B20038EC10 /* MagneticCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticCoordinator.swift; sourceTree = "<group>"; };
 		CEFF20CC2BBAD3270038EC10 /* MagneticCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticCoordinatorProtocol.swift; sourceTree = "<group>"; };
 		CEFF20CE2BBAD34E0038EC10 /* MagneticCoordinatorEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticCoordinatorEvent.swift; sourceTree = "<group>"; };
+		CEFF20D22BBAEB770038EC10 /* PurpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				CEFF20C12BBACF1B0038EC10 /* TitleLabel.swift */,
+				CEFF20D22BBAEB770038EC10 /* PurpleButton.swift */,
 			);
 			path = CustomElements;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				CEFF20BF2BBACC450038EC10 /* BaseController.swift in Sources */,
 				CEFF20CD2BBAD3270038EC10 /* MagneticCoordinatorProtocol.swift in Sources */,
 				CEFF20BB2BBACBF40038EC10 /* MagneticViewController.swift in Sources */,
+				CEFF20D32BBAEB770038EC10 /* PurpleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
