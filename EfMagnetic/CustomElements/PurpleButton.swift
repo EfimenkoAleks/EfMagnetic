@@ -9,6 +9,17 @@ import UIKit
 
 class PurpleButton: UIButton {
     
+    enum SearchButtonEvent {
+        case search , stop
+        
+        var value: String {
+            switch self {
+            case .search: return "Search"
+            case .stop: return "Stop"
+            }
+        }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -17,10 +28,11 @@ class PurpleButton: UIButton {
         backgroundColor = Colors.purple.color
     }
     
-    func setTitleButton(_ title: String) {
-        titleLabel?.text = title
-        titleLabel?.font =  UIFont(name: "Roboto", size: 20)
-        titleLabel?.textColor = Colors.white.color
+    func setTitleButton(_ title: SearchButtonEvent) {
+        
+        let mySelectedAttributedTitle = NSAttributedString(string: title.value,
+                                                           attributes: [NSAttributedString.Key.foregroundColor : Colors.white.color, NSAttributedString.Key.font: UIFont(name: "Roboto", size: 20) ?? UIFont.systemFont(ofSize: 20, weight: .semibold)])
+        setTitleColor(Colors.white.color, for: .normal)
+        setAttributedTitle(mySelectedAttributedTitle, for: .normal)
     }
 }
-
