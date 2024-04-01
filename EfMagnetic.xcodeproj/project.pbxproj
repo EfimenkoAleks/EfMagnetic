@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		CEE5CC282BBAB4CF00EC7486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CC272BBAB4CF00EC7486 /* AppDelegate.swift */; };
-		CEE5CC2A2BBAB4CF00EC7486 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CC292BBAB4CF00EC7486 /* SceneDelegate.swift */; };
-		CEE5CC2C2BBAB4CF00EC7486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CC2B2BBAB4CF00EC7486 /* ViewController.swift */; };
-		CEE5CC2F2BBAB4CF00EC7486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE5CC2D2BBAB4CF00EC7486 /* Main.storyboard */; };
 		CEE5CC312BBAB4D200EC7486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE5CC302BBAB4D200EC7486 /* Assets.xcassets */; };
 		CEE5CC342BBAB4D200EC7486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE5CC322BBAB4D200EC7486 /* LaunchScreen.storyboard */; };
+		CEE5CC452BBAC6D400EC7486 /* Collor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CC442BBAC6D400EC7486 /* Collor+Extension.swift */; };
+		CEE5CC482BBAC7AD00EC7486 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CC472BBAC7AD00EC7486 /* Colors.swift */; };
+		CEFF20BB2BBACBF40038EC10 /* MagneticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20B92BBACBF40038EC10 /* MagneticViewController.swift */; };
+		CEFF20BC2BBACBF40038EC10 /* MagneticViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFF20BA2BBACBF40038EC10 /* MagneticViewController.xib */; };
+		CEFF20BF2BBACC450038EC10 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20BE2BBACC450038EC10 /* BaseController.swift */; };
+		CEFF20C22BBACF1B0038EC10 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20C12BBACF1B0038EC10 /* TitleLabel.swift */; };
+		CEFF20C42BBAD18C0038EC10 /* Titles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20C32BBAD18C0038EC10 /* Titles.swift */; };
+		CEFF20C62BBAD2540038EC10 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20C52BBAD2540038EC10 /* CoordinatorProtocol.swift */; };
+		CEFF20C82BBAD2B20038EC10 /* MagneticCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20C72BBAD2B20038EC10 /* MagneticCoordinator.swift */; };
+		CEFF20CD2BBAD3270038EC10 /* MagneticCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20CC2BBAD3270038EC10 /* MagneticCoordinatorProtocol.swift */; };
+		CEFF20CF2BBAD34E0038EC10 /* MagneticCoordinatorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20CE2BBAD34E0038EC10 /* MagneticCoordinatorEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEE5CC242BBAB4CF00EC7486 /* EfMagnetic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EfMagnetic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE5CC272BBAB4CF00EC7486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEE5CC292BBAB4CF00EC7486 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEE5CC2B2BBAB4CF00EC7486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEE5CC2E2BBAB4CF00EC7486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEE5CC302BBAB4D200EC7486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE5CC332BBAB4D200EC7486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE5CC352BBAB4D200EC7486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE5CC442BBAC6D400EC7486 /* Collor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collor+Extension.swift"; sourceTree = "<group>"; };
+		CEE5CC472BBAC7AD00EC7486 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CEFF20B92BBACBF40038EC10 /* MagneticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticViewController.swift; sourceTree = "<group>"; };
+		CEFF20BA2BBACBF40038EC10 /* MagneticViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MagneticViewController.xib; sourceTree = "<group>"; };
+		CEFF20BE2BBACC450038EC10 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		CEFF20C12BBACF1B0038EC10 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		CEFF20C32BBAD18C0038EC10 /* Titles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Titles.swift; sourceTree = "<group>"; };
+		CEFF20C52BBAD2540038EC10 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		CEFF20C72BBAD2B20038EC10 /* MagneticCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticCoordinator.swift; sourceTree = "<group>"; };
+		CEFF20CC2BBAD3270038EC10 /* MagneticCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		CEFF20CE2BBAD34E0038EC10 /* MagneticCoordinatorEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticCoordinatorEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,87 @@
 		CEE5CC262BBAB4CF00EC7486 /* EfMagnetic */ = {
 			isa = PBXGroup;
 			children = (
+				CEFF20C02BBACEFE0038EC10 /* CustomElements */,
+				CEE5CC462BBAC79700EC7486 /* Models */,
+				CEE5CC432BBAC6AF00EC7486 /* Extensions */,
 				CEE5CC272BBAB4CF00EC7486 /* AppDelegate.swift */,
-				CEE5CC292BBAB4CF00EC7486 /* SceneDelegate.swift */,
-				CEE5CC2B2BBAB4CF00EC7486 /* ViewController.swift */,
-				CEE5CC2D2BBAB4CF00EC7486 /* Main.storyboard */,
 				CEE5CC302BBAB4D200EC7486 /* Assets.xcassets */,
 				CEE5CC322BBAB4D200EC7486 /* LaunchScreen.storyboard */,
 				CEE5CC352BBAB4D200EC7486 /* Info.plist */,
+				CEE5CC422BBAC25300EC7486 /* Coordinators */,
+				CEE5CC412BBAC23A00EC7486 /* Conrtolers */,
 			);
 			path = EfMagnetic;
+			sourceTree = "<group>";
+		};
+		CEE5CC412BBAC23A00EC7486 /* Conrtolers */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF20BD2BBACC240038EC10 /* BaseController */,
+				CEE5CC492BBAC89000EC7486 /* Magnetic */,
+			);
+			path = Conrtolers;
+			sourceTree = "<group>";
+		};
+		CEE5CC422BBAC25300EC7486 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF20C52BBAD2540038EC10 /* CoordinatorProtocol.swift */,
+				CEFF20C92BBAD2DD0038EC10 /* MagneticCoordinator */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		CEE5CC432BBAC6AF00EC7486 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5CC442BBAC6D400EC7486 /* Collor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CEE5CC462BBAC79700EC7486 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5CC472BBAC7AD00EC7486 /* Colors.swift */,
+				CEFF20C32BBAD18C0038EC10 /* Titles.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEE5CC492BBAC89000EC7486 /* Magnetic */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF20B92BBACBF40038EC10 /* MagneticViewController.swift */,
+				CEFF20BA2BBACBF40038EC10 /* MagneticViewController.xib */,
+			);
+			path = Magnetic;
+			sourceTree = "<group>";
+		};
+		CEFF20BD2BBACC240038EC10 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF20BE2BBACC450038EC10 /* BaseController.swift */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		CEFF20C02BBACEFE0038EC10 /* CustomElements */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF20C12BBACF1B0038EC10 /* TitleLabel.swift */,
+			);
+			path = CustomElements;
+			sourceTree = "<group>";
+		};
+		CEFF20C92BBAD2DD0038EC10 /* MagneticCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF20C72BBAD2B20038EC10 /* MagneticCoordinator.swift */,
+				CEFF20CC2BBAD3270038EC10 /* MagneticCoordinatorProtocol.swift */,
+				CEFF20CE2BBAD34E0038EC10 /* MagneticCoordinatorEvent.swift */,
+			);
+			path = MagneticCoordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +213,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFF20BC2BBACBF40038EC10 /* MagneticViewController.xib in Resources */,
 				CEE5CC342BBAB4D200EC7486 /* LaunchScreen.storyboard in Resources */,
 				CEE5CC312BBAB4D200EC7486 /* Assets.xcassets in Resources */,
-				CEE5CC2F2BBAB4CF00EC7486 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +226,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE5CC2C2BBAB4CF00EC7486 /* ViewController.swift in Sources */,
+				CEE5CC452BBAC6D400EC7486 /* Collor+Extension.swift in Sources */,
+				CEE5CC482BBAC7AD00EC7486 /* Colors.swift in Sources */,
+				CEFF20C82BBAD2B20038EC10 /* MagneticCoordinator.swift in Sources */,
+				CEFF20CF2BBAD34E0038EC10 /* MagneticCoordinatorEvent.swift in Sources */,
 				CEE5CC282BBAB4CF00EC7486 /* AppDelegate.swift in Sources */,
-				CEE5CC2A2BBAB4CF00EC7486 /* SceneDelegate.swift in Sources */,
+				CEFF20C42BBAD18C0038EC10 /* Titles.swift in Sources */,
+				CEFF20C62BBAD2540038EC10 /* CoordinatorProtocol.swift in Sources */,
+				CEFF20C22BBACF1B0038EC10 /* TitleLabel.swift in Sources */,
+				CEFF20BF2BBACC450038EC10 /* BaseController.swift in Sources */,
+				CEFF20CD2BBAD3270038EC10 /* MagneticCoordinatorProtocol.swift in Sources */,
+				CEFF20BB2BBACBF40038EC10 /* MagneticViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CEE5CC2D2BBAB4CF00EC7486 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEE5CC2E2BBAB4CF00EC7486 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEE5CC322BBAB4D200EC7486 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +380,6 @@
 				INFOPLIST_FILE = EfMagnetic/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +407,6 @@
 				INFOPLIST_FILE = EfMagnetic/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
