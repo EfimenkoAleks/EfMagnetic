@@ -1,13 +1,13 @@
 //
-//  ShapeView.swift
+//  AnimatedView.swift
 //  EfMagnetic
 //
-//  Created by Aleksandr on 01.04.2024.
+//  Created by Aleksandr on 02.04.2024.
 //
 
 import UIKit
 
-class ClockView: UIView {
+class AnimatedView: UIView {
     
     var isAnimated: Bool = false
     private var pointerLayer = CAShapeLayer()

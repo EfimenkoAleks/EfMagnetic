@@ -10,14 +10,11 @@ import UIKit
 class MagneticViewController: BaseController {
 
     @IBOutlet private weak var searchLabel: SearchLabel!
-    @IBOutlet private weak var containerArrow: ClockView!
+    @IBOutlet private weak var containerArrow: AnimatedView!
     @IBOutlet private weak var searchButton: PurpleButton!
   
     var coordinator: MagneticCoordinatorProtocol?
     private let searchManager: MockMagneticManager = MockMagneticManager()
-    
-    let pointerLayer = CAShapeLayer()
-        let borderLayer = CAShapeLayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
