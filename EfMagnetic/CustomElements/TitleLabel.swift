@@ -22,7 +22,7 @@ class TitleLabel: UILabel {
     
     func setTitle(title: String, color: UIColor? = nil) {
         text = title
-        font = UIFont.systemFont(ofSize: 22, weight: .medium)
+        font = UIFont.systemFont(ofSize: 17, weight: .semibold)
         textAlignment = .center
         textColor = .white
         if let color = color {

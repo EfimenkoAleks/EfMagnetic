@@ -21,6 +21,10 @@
 		CEFF20C82BBAD2B20038EC10 /* MagneticCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20C72BBAD2B20038EC10 /* MagneticCoordinator.swift */; };
 		CEFF20CD2BBAD3270038EC10 /* MagneticCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20CC2BBAD3270038EC10 /* MagneticCoordinatorProtocol.swift */; };
 		CEFF20CF2BBAD34E0038EC10 /* MagneticCoordinatorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20CE2BBAD34E0038EC10 /* MagneticCoordinatorEvent.swift */; };
+		CEFF20D32BBAEB770038EC10 /* PurpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20D22BBAEB770038EC10 /* PurpleButton.swift */; };
+		CEFF20D52BBAFE540038EC10 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20D42BBAFE540038EC10 /* ShapeView.swift */; };
+		CEFF20DA2BBB6EAE0038EC10 /* SearchLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20D92BBB6EAE0038EC10 /* SearchLabel.swift */; };
+		CEFF20DD2BBB78850038EC10 /* MockMagneticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF20DC2BBB78850038EC10 /* MockMagneticManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		CEFF20C72BBAD2B20038EC10 /* MagneticCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticCoordinator.swift; sourceTree = "<group>"; };
 		CEFF20CC2BBAD3270038EC10 /* MagneticCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticCoordinatorProtocol.swift; sourceTree = "<group>"; };
 		CEFF20CE2BBAD34E0038EC10 /* MagneticCoordinatorEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticCoordinatorEvent.swift; sourceTree = "<group>"; };
+		CEFF20D22BBAEB770038EC10 /* PurpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleButton.swift; sourceTree = "<group>"; };
+		CEFF20D42BBAFE540038EC10 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		CEFF20D92BBB6EAE0038EC10 /* SearchLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLabel.swift; sourceTree = "<group>"; };
+		CEFF20DC2BBB78850038EC10 /* MockMagneticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMagneticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,7 @@
 		CEE5CC262BBAB4CF00EC7486 /* EfMagnetic */ = {
 			isa = PBXGroup;
 			children = (
+				CEFF20DB2BBB784B0038EC10 /* Managers */,
 				CEFF20C02BBACEFE0038EC10 /* CustomElements */,
 				CEE5CC462BBAC79700EC7486 /* Models */,
 				CEE5CC432BBAC6AF00EC7486 /* Extensions */,
@@ -141,6 +150,9 @@
 			isa = PBXGroup;
 			children = (
 				CEFF20C12BBACF1B0038EC10 /* TitleLabel.swift */,
+				CEFF20D22BBAEB770038EC10 /* PurpleButton.swift */,
+				CEFF20D42BBAFE540038EC10 /* ShapeView.swift */,
+				CEFF20D92BBB6EAE0038EC10 /* SearchLabel.swift */,
 			);
 			path = CustomElements;
 			sourceTree = "<group>";
@@ -153,6 +165,14 @@
 				CEFF20CE2BBAD34E0038EC10 /* MagneticCoordinatorEvent.swift */,
 			);
 			path = MagneticCoordinator;
+			sourceTree = "<group>";
+		};
+		CEFF20DB2BBB784B0038EC10 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF20DC2BBB78850038EC10 /* MockMagneticManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +248,11 @@
 			files = (
 				CEE5CC452BBAC6D400EC7486 /* Collor+Extension.swift in Sources */,
 				CEE5CC482BBAC7AD00EC7486 /* Colors.swift in Sources */,
+				CEFF20DD2BBB78850038EC10 /* MockMagneticManager.swift in Sources */,
 				CEFF20C82BBAD2B20038EC10 /* MagneticCoordinator.swift in Sources */,
 				CEFF20CF2BBAD34E0038EC10 /* MagneticCoordinatorEvent.swift in Sources */,
+				CEFF20D52BBAFE540038EC10 /* ShapeView.swift in Sources */,
+				CEFF20DA2BBB6EAE0038EC10 /* SearchLabel.swift in Sources */,
 				CEE5CC282BBAB4CF00EC7486 /* AppDelegate.swift in Sources */,
 				CEFF20C42BBAD18C0038EC10 /* Titles.swift in Sources */,
 				CEFF20C62BBAD2540038EC10 /* CoordinatorProtocol.swift in Sources */,
@@ -237,6 +260,7 @@
 				CEFF20BF2BBACC450038EC10 /* BaseController.swift in Sources */,
 				CEFF20CD2BBAD3270038EC10 /* MagneticCoordinatorProtocol.swift in Sources */,
 				CEFF20BB2BBACBF40038EC10 /* MagneticViewController.swift in Sources */,
+				CEFF20D32BBAEB770038EC10 /* PurpleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

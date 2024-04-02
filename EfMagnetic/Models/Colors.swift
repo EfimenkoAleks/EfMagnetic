@@ -11,6 +11,7 @@ enum Colors {
     case black
     case purple
     case white
+    case lilac
 }
 
 extension Colors {
@@ -20,6 +21,7 @@ extension Colors {
         case .black: return UIColor(hexString: "#070615")
         case .purple: return UIColor(hexString: "#6D59D3")
         case .white: return UIColor(hexString: "#FFFFFF")
+        case .lilac: return UIColor(hexString: "#E1DBFF")
         }
     }
 }
