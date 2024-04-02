@@ -16,6 +16,7 @@ class ClockView: UIView {
     private let maxValue: CGFloat = CGFloat.pi
     private let maxSpeed: CGFloat = 0.2
     private let minSpeed: CGFloat = 1.0
+    private let maxLoad: CGFloat = 100
     private let keyRotationAnimation: String = "rotationAnimation"
     private let keyRotationAnimationPath: String = "transform.rotation.z"
     
@@ -46,10 +47,12 @@ class ClockView: UIView {
     }
     
     func addAnimation(index: CGFloat, start: Bool) {
+        let data = maxValue * index / maxLoad
+        
         isAnimated = start == true ? true : false
         animation = CABasicAnimation(keyPath: keyRotationAnimationPath)
-        animation?.fromValue = start == true ? startValue : maxValue / index
-        animation?.toValue = start == true ? maxValue / index : startValue
+        animation?.fromValue = start == true ? startValue : data
+        animation?.toValue = start == true ? data : startValue
         animation?.duration = start == true ? minSpeed : maxSpeed
         animation?.isCumulative = true
         animation?.fillMode = CAMediaTimingFillMode.forwards

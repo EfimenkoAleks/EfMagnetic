@@ -10,14 +10,8 @@ import UIKit
 class SearchLabel: UILabel {
     
     enum SearchEvent {
-        case search , stop
-        
-        var value: String {
-            switch self {
-            case .search: return "Search checking"
-            case .stop: return "Stop"
-            }
-        }
+        case search
+        case value(Int)
     }
     
     override func awakeFromNib() {
@@ -28,6 +22,11 @@ class SearchLabel: UILabel {
     }
     
     func setTitle(_ title: SearchEvent) {
-        text = title.value
+        switch title {
+        case .search:
+            text = "Search checking"
+        case .value(let vol):
+            text = "\(vol) µT"
+        }
     }
 }

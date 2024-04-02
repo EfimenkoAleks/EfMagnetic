@@ -14,6 +14,7 @@ class MagneticViewController: BaseController {
     @IBOutlet private weak var searchButton: PurpleButton!
   
     var coordinator: MagneticCoordinatorProtocol?
+    private let searchManager: MockMagneticManager = MockMagneticManager()
     
     let pointerLayer = CAShapeLayer()
         let borderLayer = CAShapeLayer()
@@ -25,10 +26,11 @@ class MagneticViewController: BaseController {
     }
     
     @IBAction private func didTapButtonAction(_ sender: UIButton) {
+        let data = searchManager.createdata(containerArrow.isAnimated)
  
         containerArrow.isAnimated ? searchButton.setTitleButton(.search) : searchButton.setTitleButton(.stop)
-        containerArrow.isAnimated ? searchLabel.setTitle(.search) : searchLabel.setTitle(.stop)
-        containerArrow.isAnimated ? containerArrow.addAnimation(index: 4.0, start: false) : containerArrow.addAnimation(index: 4.0, start: true)
+        containerArrow.isAnimated ? searchLabel.setTitle(.search) : searchLabel.setTitle(.value(Int(data.rounded())))
+        containerArrow.isAnimated ? containerArrow.addAnimation(index: data, start: false) : containerArrow.addAnimation(index: data, start: true)
         
     }
 }
