@@ -59,7 +59,7 @@
                         <constraint firstAttribute="height" constant="189" id="Hqi-mv-sUE"/>
                     </constraints>
                 </imageView>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U4D-CK-1ot" customClass="ClockView" customModule="EfMagnetic" customModuleProvider="target">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U4D-CK-1ot" customClass="AnimatedView" customModule="EfMagnetic" customModuleProvider="target">
                     <rect key="frame" x="116.66666666666669" y="488" width="160" height="160"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
